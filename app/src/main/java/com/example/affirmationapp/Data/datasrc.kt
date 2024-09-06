@@ -5,6 +5,7 @@ import com.example.affirmationapp.models.Affirmation
 
 class DataSource {
     fun loadAffirmations(): List<Affirmation> {
+        // Returns a list of Affirmation objects, each containing a string resource ID and an image resource ID
         return listOf<Affirmation>(
             Affirmation(R.string.affirmation1, R.drawable.image1),
             Affirmation(R.string.affirmation2, R.drawable.image2),
